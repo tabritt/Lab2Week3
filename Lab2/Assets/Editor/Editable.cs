@@ -2,12 +2,15 @@ using UnityEngine;
 using UnityEditor;
 using System.Linq;
 
-[CustomEditor(typeof(Editable))]
+[CustomEditor(typeof(Editable)), CanEditMultipleObjects] //allows for editing of multiple objects
 public class EditableEditor : Editor
 {
     public override void OnInspectorGUI()
     {
+
         base.OnInspectorGUI();
+
+        EditorGUILayout.BeginHorizontal(); //begins wrap for horizontal button layout
 
         if (GUILayout.Button("Select all Cubes")) //swapped enimes to the shapes
         {
@@ -18,6 +21,8 @@ public class EditableEditor : Editor
         {
             SelectTag("Sphere"); //different font
         }
+        
+        EditorGUILayout.EndHorizontal(); // wrap for horizontal button layout
 
         if (GUILayout.Button("Clear Selection")) //removes the selection
         {
@@ -38,8 +43,8 @@ public class EditableEditor : Editor
     {
         var objs = GameObject.FindGameObjectsWithTag(tag).ToList();
 
-        if (objs.Count == 0)
-            return; //exit method if 0
+        //if (objs.Count == 0)
+          //  return; //exit method if 0
 
         bool allActive = objs.All(o => o.activeSelf);
 
