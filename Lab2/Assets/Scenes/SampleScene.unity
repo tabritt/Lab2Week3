@@ -288,6 +288,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c87a9421b3d52674a9509980589d4f41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Editable
+  cubeSize: 1
+  sphereRadius: 1
 --- !u!65 &330787763
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -588,6 +590,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c87a9421b3d52674a9509980589d4f41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Editable
+  cubeSize: 1
+  sphereRadius: 1
 --- !u!135 &912506073
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -712,6 +716,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c87a9421b3d52674a9509980589d4f41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Editable
+  cubeSize: 1
+  sphereRadius: 1
 --- !u!65 &949614616
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -836,6 +842,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c87a9421b3d52674a9509980589d4f41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Editable
+  cubeSize: 1
+  sphereRadius: 1
 --- !u!135 &981919385
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -960,6 +968,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c87a9421b3d52674a9509980589d4f41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Editable
+  cubeSize: 1
+  sphereRadius: 1
 --- !u!135 &1347365623
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1084,6 +1094,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c87a9421b3d52674a9509980589d4f41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Editable
+  cubeSize: 1
+  sphereRadius: 1
 --- !u!65 &1402421774
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1208,6 +1220,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c87a9421b3d52674a9509980589d4f41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Editable
+  cubeSize: 1
+  sphereRadius: 1
 --- !u!65 &1588110515
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1332,6 +1346,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c87a9421b3d52674a9509980589d4f41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Editable
+  cubeSize: 2
+  sphereRadius: 3
 --- !u!135 &1767145323
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1456,6 +1472,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c87a9421b3d52674a9509980589d4f41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Editable
+  cubeSize: 1
+  sphereRadius: 1
 --- !u!135 &1893953751
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1580,6 +1598,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c87a9421b3d52674a9509980589d4f41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Editable
+  cubeSize: 1
+  sphereRadius: 1
 --- !u!65 &1986707009
 BoxCollider:
   m_ObjectHideFlags: 0
